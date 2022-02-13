@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #000000;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+}
+
+.parallax-1 {
+    background-image: url("https://travel-pro.lu/images/blog/31.07.2020/united-kingdom.jpg");
+    min-height: 700px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 {
+    background-image: url("https://i.natgeofe.com/n/4def1048-f5e5-4973-ad3a-e188a97d363f/regents-street-london-england.jpg");
+    /* Create the parallax scrolling effect */
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-3 {
+    background-image: url("https://voxcitywalks.com/wp-content/uploads/2020/10/london-2.jpg");
+    /* Create the parallax scrolling effect */
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Style the navigation bar with a black background and some padding */
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 20px 10px;
+}
+
+/* Style the navbar links */
+.nav-bar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+
+/* Style the logo link */
+.nav-bar a.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Add underline on link mouse-over */
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+/* Do not add underline on mouse-over for logo*/
+.nav-bar a.logo:hover {
+    text-decoration: none;
+}
+
+
+/* Style the active/current link*/
+.nav-bar a.active {
+    font-weight: none;
+}
+
+/* Float the link section to the right */
+.nav-bar-right {
+    float: right;
+}
+
+.page-welcome {
+    font-weight: 900;
+    font-size: 5rem;
+    padding: 350px;
+    color: #ffffff;
+}
+
+.paragraph-heading {
+    font-size: 3rem;
+    font-weight: 600;
+    padding: 50px;
+}
+
+.paragraph-style-1 {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 1.1rem;
+    margin-left: 110px;
+    margin-right: 110px;
+    padding-bottom: 30px;
+}
+
+.paragraph-style-2 {
+    text-align: center;
+    text-justify: inter-word;
+    font-size: 1.1rem;
+    margin-left: 110px;
+    margin-right: 110px;
+    padding-bottom: 30px;
+}
+
+.places-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+}
+
+.place-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+.place-tile {
+    background: #ededed;
+    border-radius: 2px;
+}
+
+
+.place-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.places-grid a:hover {
+    text-decoration: none;
+}
+
+.btn-show-all {
+    font-weight: bold;
+    color:black;
+    font-size: 2rem;
+    background: #ededed;
+}
+
+#learn-more {
+    font-weight: bold;
+    color: black;
+}
+
+.gray-section {
+    background: #ededed;
+}
+
+#trivia {
+    font-weight: bold;
+    color:black;
+}
+
+
+footer {
+    width: 100%;
+    overflow: hidden;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 20px 10px;
+}
+
+
+.footer-text {
+    text-align: left;
+    margin-left: 3rem;
+    padding: 30px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 40px;
+    border-radius: 50%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: white;
+}
